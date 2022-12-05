@@ -11,7 +11,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let view1 = UIView()
+        view1.backgroundColor = .lightGray
+        let view2 = UIView()
+        view2.backgroundColor = .gray
+        
+        let photo1 = UIImageView(image: UIImage(named: "IMG_4048.jpg"))
+        let photo2 = UIImageView(image: UIImage(named: "IMG_4202.jpg"))
+        let photo3 = UIImageView(image: UIImage(named: "IMG_4854.jpg"))
+        
     }
 
 
